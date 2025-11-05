@@ -20,14 +20,18 @@ export default function Home() {
     const url = "https://ghibliapi.vercel.app/films";
 
     async function fetchFilmes() {
-      const response = await fetch(url);
-      const data = await response.json();
+      try{
+        const response = await fetch(url);
+        const data: Filme[] = await response.json();
 
-      const filmesOrdenados = data
-        .sort((a,b) => a.title.localeCompare(b.title))
-        .slice(0, 10);
+        const filmesOrdenados = data
+          .sort((a,b) => a.title.localeCompare(b.title))
+          .slice(0, 10);
 
-      setFilmes(filmesOrdenados);
+        setFilmes(filmesOrdenados);
+      }catch(error) {
+        console.error("Erro ao buscar filmes:", error);
+      }  
     }
 
     fetchFilmes();
