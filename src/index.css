@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+/* === 🎨 Tema global === */
+:root {
+  --color-fundo-body: #0f172a;
+  --color-fundo-card: #1e293b;
+  --color-titulo: #e2e8f0;
+  --color-texto: #cbd5e1;
+  --color-botao: #38bdf8;
+  --color-botao-hover: #0ea5e9;
+  --color-carregando: #38bdf0;
+  --color-descricao: #94a3b8;
+  --color-outras-informacoes: #40bdf8;
+}
+
+
+body {
+  background-color: var(--color-fundo-body);
+  color: var(--color-texto);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+.card-dark {
+  background-color: var(--color-fundo-card);
+  color: var(--color-titulo);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-dark:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.button-accent {
+  background-color: var(--color-botao);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.button-accent:hover {
+  background-color: var(--color-botao-hover);
+}
