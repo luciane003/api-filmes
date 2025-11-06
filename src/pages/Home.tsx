@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 
 interface Filme {
-  title: string;
-  description: string;
-  director: string;
-  producer: string;
-  release_date: string;
-  rt_score: string;
-  image: string;
-  id: string;
+  title: string,
+  description: string,
+  director: string,
+  producer: string,
+  release_date: string,
+  rt_score: string,
+  image: string,
+  id: string
 }
 
 export default function Home() {
