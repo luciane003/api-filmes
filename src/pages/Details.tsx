@@ -44,7 +44,7 @@ export default function Details() {
                 <img
                     src={filme.image}
                     alt={filme.title}
-                    className="w-full max-w-3xl mx-auto rounded-2xl shadow-lg mb-6 object-cover object-[50%_20%] h-[500px]" />
+                    className="select-none cursor-default w-full max-w-3xl mx-auto rounded-2xl shadow-lg mb-6 object-cover object-[50%_20%] h-[500px]" />
 
                 <h1 className="text-3xl font-bold mb-4">{filme.title}</h1>
                 <p className="text-[var(--color-descricao)] mb-6 leading-relaxed">{filme.description}</p>

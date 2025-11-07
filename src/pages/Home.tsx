@@ -38,7 +38,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className='min-h-screen p-10'>
+    <div className='select-none cursor-default min-h-screen p-10'>
       <h1 className='text-4xl font-bold text-center mb-10 text-titulo'>
         Filmes Studio Ghibli
       </h1>
