@@ -18,7 +18,7 @@ Aplicação que consome a API do Studio Ghibli para exibir informações sobre o
   
 ## 🧩 Tecnologias utilizadas
 
-<div align="center">
+<div>
   <img align="center" alt="React" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
   <img align="center" alt="TypeScript" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
   <img align="center" alt="TailwindCSS" height="40" width="50" src="https://logo.svgcdn.com/devicon/tailwindcss-original.svg">
