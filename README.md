@@ -29,7 +29,7 @@ Aplicação que consome a API do Studio Ghibli para exibir informações sobre o
 ## 📸 Demonstração / Preview
 
 ## Visualizar projeto
-(Acesse aqui.)[https://luciane003.github.io/api-filmes/]
+[Acesse aqui.](https://luciane003.github.io/api-filmes/)
 
 ## 🚀 Como executar o projeto
 ### Clonar o repositório
