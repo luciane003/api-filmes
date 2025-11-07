@@ -30,7 +30,7 @@ Aplicação que consome a API do Studio Ghibli para exibir informações sobre o
 
 ## 🚀 Como executar o projeto
 ### Clonar o repositório
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/luciane003/api-filmes.git
 
 ### Entrar na pasta
 cd nome-do-repositorio
