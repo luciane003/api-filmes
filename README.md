@@ -27,6 +27,9 @@ Aplicação que consome a API do Studio Ghibli para exibir informações sobre o
 </div>
 
 ## 📸 Demonstração / Preview
+<div align="center">
+  <img src="public/ghibli-preview.gif" alt="Demonstração do projeto" width="600">
+</div>
 
 ## Visualizar projeto
 [Acesse aqui.](https://luciane003.github.io/api-filmes/)
