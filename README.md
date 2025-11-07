@@ -41,7 +41,7 @@ npm install
 ### Iniciar o projeto
 npm run dev
 
-💬 Sobre o projeto
+## 💬 Sobre o projeto
 Esse projeto foi desenvolvido durante meu curso de React, e foi uma ótima oportunidade para praticar o consumo de APIs e o uso de TypeScript. O maior desafio foi organizar os componentes e aplicar um tema escuro moderno, mas o resultado final me deixou muito satisfeita.
 
 ## 👩 Autora 
